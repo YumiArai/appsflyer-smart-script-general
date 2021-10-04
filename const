@@ -24,7 +24,6 @@
       if (url) {
             document.getElementById('andrd_link').setAttribute('href', url);   // 生成したOneLinkカスタムリンクを LP内の <a>タグのどこに埋めるかを指示
             document.getElementById('ios_link').setAttribute('href', url);   // 生成したOneLinkカスタムリンクを LP内の <a>タグのどこに埋めるかを指示
-            document.getElementById('output_url').innerHTML = url;
       }
 
     };
